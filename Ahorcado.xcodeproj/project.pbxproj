@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330454881E3A6C5100E18E8D /* ahorcado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 330454871E3A6C5100E18E8D /* ahorcado.jpg */; settings = {ASSET_TAGS = (); }; };
+		3304548B1E3A862600E18E8D /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 330454891E3A862600E18E8D /* right.png */; settings = {ASSET_TAGS = (); }; };
+		3304548C1E3A862600E18E8D /* wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 3304548A1E3A862600E18E8D /* wrong.png */; settings = {ASSET_TAGS = (); }; };
 		33E689901E2EA41100A22395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E6898F1E2EA41100A22395 /* AppDelegate.swift */; };
 		33E689921E2EA41100A22395 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E689911E2EA41100A22395 /* ViewController.swift */; };
 		33E689951E2EA41100A22395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E689931E2EA41100A22395 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		330454871E3A6C5100E18E8D /* ahorcado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ahorcado.jpg; path = Ahorcado/ahorcado.jpg; sourceTree = "<group>"; };
+		330454891E3A862600E18E8D /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		3304548A1E3A862600E18E8D /* wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong.png; sourceTree = "<group>"; };
 		33E6898C1E2EA41100A22395 /* Ahorcado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ahorcado.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E6898F1E2EA41100A22395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33E689911E2EA41100A22395 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +83,9 @@
 		33E689831E2EA41100A22395 = {
 			isa = PBXGroup;
 			children = (
+				330454871E3A6C5100E18E8D /* ahorcado.jpg */,
+				330454891E3A862600E18E8D /* right.png */,
+				3304548A1E3A862600E18E8D /* wrong.png */,
 				33E6898E1E2EA41100A22395 /* Ahorcado */,
 				33E689A31E2EA41100A22395 /* AhorcadoTests */,
 				33E689AE1E2EA41200A22395 /* AhorcadoUITests */,
@@ -228,6 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3304548B1E3A862600E18E8D /* right.png in Resources */,
+				3304548C1E3A862600E18E8D /* wrong.png in Resources */,
+				330454881E3A6C5100E18E8D /* ahorcado.jpg in Resources */,
 				33E6899A1E2EA41100A22395 /* LaunchScreen.storyboard in Resources */,
 				33E689971E2EA41100A22395 /* Assets.xcassets in Resources */,
 				33E689951E2EA41100A22395 /* Main.storyboard in Resources */,
@@ -481,6 +493,7 @@
 				33E689B61E2EA41200A22395 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33E689B71E2EA41200A22395 /* Build configuration list for PBXNativeTarget "AhorcadoTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +502,7 @@
 				33E689B91E2EA41200A22395 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33E689BA1E2EA41200A22395 /* Build configuration list for PBXNativeTarget "AhorcadoUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +511,7 @@
 				33E689BC1E2EA41200A22395 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
